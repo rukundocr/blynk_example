@@ -1,9 +1,9 @@
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "JKNVXMDWhnnBytGzuHY8IPtpNNiE7JUC";
-char ssid[] = "TECNO SPARK";
-char pass[] = "1234567890";
+char auth[] = "your auth code from blynk project ";
+char ssid[] = "your wifi ssid";
+char pass[] = "your wifi password";
 int pin = A0;
 float moisture=0;
 float temperature=22;
